@@ -47,7 +47,7 @@ public class AreaOfTriangle {
             double C1 =sn.nextDouble();
             double C = Math.toRadians(C1);
             
-            double area = (a + b + Math.sin(C)) / 2;
+            double area = (a * (b * Math.sin(C))) / 2;
             // print answer
             System.out.println("The area of the triangle is: " + area + "units");
         }
